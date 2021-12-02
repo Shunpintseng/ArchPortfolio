@@ -3,12 +3,26 @@
    Created: Jul 2019
    Description: Custom JS file
 */
-var slideIndex = 1;
-showSlides(slideIndex);
 
+
+
+// Insert from W3 School Code for sliding Images////////////////////////////////////
+var slideIndex = 1;
+showSlides(slideIndex, "mySlides");
+showSlides(slideIndex, "mySlides2");
+// showSlides(slideIndex, "mySlides3");
+// showSlides(slideIndex, "mySlides4");
+// showSlides(slideIndex, "mySlides5");
+// showSlides(slideIndex, "mySlides6");
+// showSlides(slideIndex, "mySlides7");
+// showSlides(slideIndex, "mySlides8");
+// showSlides(slideIndex, "mySlides9");
+// showSlides(slideIndex, "mySlides10");
+// showSlides(slideIndex, "mySlides11");
+// showSlides(slideIndex, "mySlides12");
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n, slideName) {
+  showSlides(slideIndex += n, slideName);
 }
 
 // Thumbnail image controls
@@ -16,9 +30,9 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides(n, slideName) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName(slideName);
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -32,6 +46,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
+////////////////////Original code starts here/////////////////////////////////////////////
 (function($) {
     "use strict"; 
 	
