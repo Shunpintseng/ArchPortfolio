@@ -10,10 +10,10 @@
 var slideIndex = 1;
 showSlides(slideIndex, "mySlides");
 showSlides(slideIndex, "mySlides2");
-// showSlides(slideIndex, "mySlides3");
-// showSlides(slideIndex, "mySlides4");
-// showSlides(slideIndex, "mySlides5");
-// showSlides(slideIndex, "mySlides6");
+showSlides(slideIndex, "mySlides3");
+showSlides(slideIndex, "mySlides4");
+showSlides(slideIndex, "mySlides5");
+showSlides(slideIndex, "mySlides6");
 // showSlides(slideIndex, "mySlides7");
 // showSlides(slideIndex, "mySlides8");
 // showSlides(slideIndex, "mySlides9");
@@ -26,8 +26,8 @@ function plusSlides(n, slideName) {
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n, slideName) {
+  showSlides(slideIndex = n, slideName);
 }
 
 function showSlides(n, slideName) {
