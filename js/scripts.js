@@ -14,10 +14,10 @@ showSlides(slideIndex, "mySlides3");
 showSlides(slideIndex, "mySlides4");
 showSlides(slideIndex, "mySlides5");
 showSlides(slideIndex, "mySlides6");
-// showSlides(slideIndex, "mySlides7");
-// showSlides(slideIndex, "mySlides8");
-// showSlides(slideIndex, "mySlides9");
-// showSlides(slideIndex, "mySlides10");
+showSlides(slideIndex, "mySlides7");
+showSlides(slideIndex, "mySlides8");
+showSlides(slideIndex, "mySlides9");
+showSlides(slideIndex, "mySlides10");
 // showSlides(slideIndex, "mySlides11");
 // showSlides(slideIndex, "mySlides12");
 // Next/previous controls
