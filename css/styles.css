@@ -11,7 +11,7 @@ Table Of Contents:
 02. Preloader
 03. Navigation
 04. Header
-05. Intro
+05. n Intro
 06. Description
 07. Services
 08. Details 1
@@ -186,14 +186,14 @@ strong {
 	border: 0.125rem solid #787976;
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: #ffffff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #787976;
+	background-color: #14bf98;
 	color: #fff;
 	text-decoration: none;
 }
